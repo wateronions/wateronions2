@@ -1,0 +1,132 @@
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent box model behavior */
+    cursor: url('logo2.png') 16 16, auto; /* Custom cursor with a hotspot at position (16, 16) */
+}
+
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent box model behavior */
+}
+
+/* Header styles */
+header {
+    background-color: #e2b28a; /* light orange */
+    text-align: center;
+    padding: 1em;
+    color: rgb(88, 44, 25);
+}
+
+/* Navigation styles */
+nav {
+    background-color: #b69275; /* teal */
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Full width for navbar */
+    box-sizing: border-box; /* Includes padding in width */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(27, 19, 122);
+}
+
+/* Style for the image in the nav */
+nav img {
+    width: 10%; /* Set width for the logo */
+    position: relative;
+    top: 20px; /* Optional for alignment */
+}
+
+/* Skip to Main Content Link */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000; /* Black background for visibility */
+    color: #fff; /* White text for contrast */
+    padding: 0.5em;
+    text-decoration: none;
+    z-index: 100;
+    transition: top 0.3s; /* Smooth transition */
+}
+
+.skip-link:focus {
+    top: 0; /* Moves link into view when focused */
+}
+
+/* Main content styles */
+main {
+    background-color: #9b7a5f; /* gold */
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 2em;
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Grid class styles */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%; /* Two columns */
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 1em;
+    background-color: #ccbbaa; /* Restored background color for grid container */
+    padding: 1em;
+}
+
+.grid img {
+    width: 100%; /* Ensure images in the grid class take full width */
+    border: 2px solid #b69275; /* Optional border for visual separation */
+}
+
+/* Flex class styles */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #b6a298; /* Restored background color for flex container */
+    padding: 1em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #264653; /* dark teal */
+    color: rgb(190 221 211
+    );
+    text-align: center;
+    padding: 1em;
+}
